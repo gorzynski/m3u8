@@ -25,6 +25,16 @@ http://media.example.com/entire2.ts
 #EXT-X-ENDLIST
 '''
 
+SIMPLE_PLAYLIST_WITH_ZERO_MEDIA_SEQUENCE = '''
+#EXTM3U
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-TARGETDURATION:5
+#EXTINF:4.96,
+http://media.example.com/entire0.ts
+#EXTINF:4.96,
+http://media.example.com/entire1.ts
+'''
+
 SIMPLE_PLAYLIST_WITH_START_NEGATIVE_OFFSET = '''
 #EXTM3U
 #EXT-X-TARGETDURATION:5220
